@@ -1,0 +1,16 @@
+{
+  "name": "printqueue-daemon",
+  "version": "1.0.0",
+  "description": "Local print daemon for PrintQueue Pro – polls Supabase and sends jobs to physical printer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "node-fetch": "^3.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
